@@ -1,0 +1,44 @@
+@import url(header.css);
+@import url(banner.css);
+@import url(catalogo.css);
+@import url(rodape.css);
+
+
+:root{
+    --azul-principal: #2A7AE4;
+    --cinza:#F5F5F5;
+    --cinza-texto:#A2A2A2;
+    --fonte:'Raleway', sans-serif;
+    --azul-claro:#EAF2FD;
+}
+
+body{
+    font-family: var(--fonte);
+}
+
+@media screen and (min-width:1750px){
+    .categoria, .catalogo{
+        width: 70%;
+     }
+
+     .categoria{
+        margin: 6em auto 1em auto;
+    }
+
+    .catalogo{
+        margin: 0 auto;
+    }
+
+    .cabecalho{
+     padding:2em 17em;
+     justify-content: space-between;
+    }
+
+    .cabecalho__input{
+        margin:0;
+    }
+
+    .rodape{
+        padding: 3em 17em;
+    }
+}
